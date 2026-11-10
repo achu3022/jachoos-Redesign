@@ -1,0 +1,79 @@
+/*
+Theme Name: JachOOs Redesign
+Theme URI: 
+Author: Abhijith P S
+Author URI:
+Description: Completely redesigned corporate theme for JachOOs - Global IT
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.8
+Requires PHP: 7.4
+Text Domain: jachoos
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+:root {
+  /* User-specified color theme */
+  --color-primary: #fbb521;
+  /* Vibrant Warm Gold / Amber Yellow */
+  --color-slate: #6b6b69;
+  /* Slate Gray / Neutral Dark */
+  --color-terracotta: #a95f3d;
+  /* Warm Copper / Terracotta */
+  --color-yellow: #ffdf02;
+  /* Cyber Highlight Yellow */
+  --color-bronze: #c27e2d;
+  /* Golden Bronze / Warm Ochre */
+
+  /* Neutral Dark & Light Palette */
+  --color-dark-900: #090d16;
+  /* Deep Night Hero Base */
+  --color-dark-800: #0f172a;
+  /* Tech Dark Background */
+  --color-dark-700: #172238;
+  /* Card Dark Surface */
+  --color-dark-600: #1e293b;
+  /* Border / Elevated Dark */
+  --color-dark-500: #334155;
+
+  --color-light-50: #ffffff;
+  /* Pure White Surface */
+  --color-light-100: #fbfbfa;
+  /* Ultra-light Warm Neutral */
+  --color-light-200: #f4f4f2;
+  /* Soft Gray / Divider */
+  --color-light-300: #e5e7eb;
+  /* Crisp Border */
+  --color-text-main: #1e293b;
+  /* High-contrast Heading Ink */
+  --color-text-muted: #6b6b69;
+  /* Slate Gray Body Text */
+
+  /* Gradients */
+  --gradient-gold: linear-gradient(135deg, #fbb521 0%, #c27e2d 100%);
+  --gradient-gold-bright: linear-gradient(135deg, #ffdf02 0%, #fbb521 100%);
+  --gradient-terracotta: linear-gradient(135deg, #c27e2d 0%, #a95f3d 100%);
+  --gradient-dark-hero: radial-gradient(ellipse at 70% 35%, #18253e 0%, #0e1525 50%, #080c14 100%);
+  --gradient-tech-glow: radial-gradient(circle, rgba(251, 181, 33, 0.18) 0%, rgba(251, 181, 33, 0) 70%);
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(15, 23, 42, 0.06);
+  --shadow-md: 0 8px 24px rgba(15, 23, 42, 0.08);
+  --shadow-lg: 0 16px 42px rgba(15, 23, 42, 0.12);
+  --shadow-gold: 0 10px 30px rgba(251, 181, 33, 0.35);
+  --shadow-glow: 0 0 35px rgba(251, 181, 33, 0.3);
+
+  /* Radii */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-pill: 9999px;
+
+  /* Typography - Attractive Modern Corporate Tech Hierarchy */
+  --font-heading: 'Outfit', 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
+  --font-display: 'Outfit', sans-serif;
+  --font-tech: 'Space Grotesk', -apple-system, sans-serif;
+}
